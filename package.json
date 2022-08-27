@@ -1,0 +1,28 @@
+{
+  "name": "api-rest-js-practico",
+  "version": "1.0.0",
+  "description": "Curso de consumo de api rest práctico.",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSunLand7/api-rest-js-practico.git"
+  },
+  "keywords": [],
+  "author": "@xiayudev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheSunLand7/api-rest-js-practico/issues"
+  },
+  "homepage": "https://github.com/TheSunLand7/api-rest-js-practico#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "vite": "^3.0.9"
+  }
+}
