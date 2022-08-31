@@ -5,7 +5,7 @@
   "main": "index.html",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx postcss --watch ./src/main.css -o ./assets/css/main.css",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -22,7 +22,11 @@
   },
   "homepage": "https://github.com/TheSunLand7/api-rest-js-practico#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.8",
     "dotenv": "^16.0.1",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-nesting": "^10.1.10",
     "vite": "^3.0.9"
   }
 }

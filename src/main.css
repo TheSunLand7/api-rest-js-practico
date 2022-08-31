@@ -73,11 +73,6 @@ input {
   padding-left: 16px;
 }
 
-input::-moz-placeholder {
-  color: var(--purple-medium-1);
-  font-family: var(--font-family-text);
-}
-
 input::placeholder {
   color: var(--purple-medium-1);
   font-family: var(--font-family-text);
